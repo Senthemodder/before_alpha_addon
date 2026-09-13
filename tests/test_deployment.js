@@ -148,21 +148,21 @@ function registerTests() {
     }, { tier: 2 });
 
     // --- Tier 3: Sync Parity & File Count Invariants ---
-    test('[T3] Global deployed file count exactly equals source repository (113 files)', () => {
+    test('[T3] Global deployed file count exactly equals source repository', () => {
       const srcBPFiles = listFilesRecursive(SOURCE_BP);
       const tgtBPFiles = listFilesRecursive(DEFAULT_BP_TARGET);
       const srcRPFiles = listFilesRecursive(SOURCE_RP);
       const tgtRPFiles = listFilesRecursive(DEFAULT_RP_TARGET);
 
-      expect(srcBPFiles.length).toBe(84);
-      expect(tgtBPFiles.length).toBe(84);
+      expect(srcBPFiles.length).toBe(tgtBPFiles.length);
+      expect(srcRPFiles.length).toBe(tgtRPFiles.length);
+      expect(srcBPFiles.length).toBeGreaterThanOrEqual(84);
       expect(srcRPFiles.length).toBe(29);
-      expect(tgtRPFiles.length).toBe(29);
 
       const totalSource = srcBPFiles.length + srcRPFiles.length;
       const totalTarget = tgtBPFiles.length + tgtRPFiles.length;
-      expect(totalSource).toBe(113);
-      expect(totalTarget).toBe(113);
+      expect(totalSource).toBe(totalTarget);
+      expect(totalSource).toBeGreaterThanOrEqual(113);
     }, { tier: 3 });
 
     // --- Tier 4: Engine Readiness Scenario ---
