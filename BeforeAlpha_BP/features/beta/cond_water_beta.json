@@ -1,0 +1,13 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "before_alpha:cond_water_beta"
+    },
+    "places_feature": "before_alpha:beta_water",
+    "iterations": "t.water_depth > 0 && t.layer <= t.water_depth",
+    "x": 0,
+    "y": 0,
+    "z": 0
+  }
+}

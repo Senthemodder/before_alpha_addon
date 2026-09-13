@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "before_alpha:feature_rule_alpha",
+      "places_feature": "before_alpha:chunk_scatter_alpha"
+    },
+    "conditions": {
+      "placement_pass": "first_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "overworld"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "coordinate_eval_order": "xzy",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  }
+}

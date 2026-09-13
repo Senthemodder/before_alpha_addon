@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "before_alpha:the_glitch",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.before_alpha:the_glitch.name"
+      },
+      "minecraft:icon": "the_glitch",
+      "minecraft:max_stack_size": 1,
+      "minecraft:glint": true,
+      "minecraft:hand_equipped": false,
+      "minecraft:cooldown": {
+        "category": "the_glitch",
+        "duration": 0.5
+      }
+    }
+  }
+}

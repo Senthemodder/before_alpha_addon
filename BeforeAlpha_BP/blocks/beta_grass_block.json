@@ -1,0 +1,38 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "before_alpha:beta_grass_block",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:display_name": "tile.before_alpha:beta_grass_block.name",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.6
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "before_alpha_beta_grass_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "before_alpha_beta_dirt",
+          "render_method": "opaque"
+        },
+        "*": {
+          "texture": "before_alpha_beta_grass_side",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:light_dampening": 15
+    }
+  }
+}

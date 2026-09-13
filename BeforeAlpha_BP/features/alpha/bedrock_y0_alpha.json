@@ -1,0 +1,13 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "before_alpha:bedrock_y0_alpha"
+    },
+    "places_feature": "before_alpha:alpha_bedrock",
+    "iterations": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  }
+}

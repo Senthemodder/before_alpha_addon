@@ -1,0 +1,13 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "before_alpha:column_alpha"
+    },
+    "places_feature": "before_alpha:layer_picker_alpha",
+    "iterations": "v.wx = v.worldx; v.wz = v.worldz; v.d_raw = q.noise(v.wx * 0.001, v.wz * 0.001); v.depth = v.d_raw * 8.0; v.scale = 1.0; v.base_height = 92.0 + v.depth; v.rx = 0.8 * v.wx + 0.6 * v.wz; v.rz = -0.6 * v.wx + 0.8 * v.wz; v.relief = q.noise(v.rx * 0.008, v.rz * 0.008) * 30.0 + q.noise(v.rx * 0.016, v.rz * 0.016) * 15.0; v.raw_height = v.base_height + v.relief; v.raw_height > 104.0 ? { v.weight = (v.raw_height - 104.0) / 24.0; v.raw_height = v.raw_height * (1.0 - v.weight) + 104.0 * v.weight; }; t.solid_height = math.floor(math.clamp(v.raw_height, 1.0, 126.0)); t.height = math.floor(math.max(t.solid_height, 64.0)); t.water_depth = (64.0 > t.solid_height) ? math.floor(64.0 - t.solid_height) : 0; t.layer = 0; t.biome_id = 0; return 1;",
+    "x": 0,
+    "y": 0,
+    "z": 0
+  }
+}

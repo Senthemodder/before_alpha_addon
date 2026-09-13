@@ -1,0 +1,13 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "before_alpha:column_beta"
+    },
+    "places_feature": "before_alpha:layer_picker_beta",
+    "iterations": "v.wx = v.worldx; v.wz = v.worldz; v.warp_x = q.noise(v.wx * 0.001, v.wz * 0.001) * 8.0; v.warp_z = q.noise((v.wx + 173.1) * 0.001, (v.wz + 311.7) * 0.001) * 8.0; v.qx = v.wx + v.warp_x; v.qz = v.wz + v.warp_z; v.d_raw = q.noise(v.qx * 0.001, v.qz * 0.001); v.depth = v.d_raw * 8.0; v.base_height = 91.0 + v.depth; v.relief = q.noise(v.qx * 0.008, v.qz * 0.008) * 25.0 + q.noise(v.qx * 0.016, v.qz * 0.016) * 12.5; v.raw_height = v.base_height + v.relief; v.temp_raw = q.noise(v.wx * 0.001, v.wz * 0.001); v.rain_raw = q.noise((v.wx + 543.2) * 0.001, (v.wz + 321.8) * 0.001); v.temp = math.clamp((v.temp_raw + 1.0) * 0.5, 0.0, 1.0); v.rain = math.clamp((v.rain_raw + 1.0) * 0.5, 0.0, 1.0); v.eff_rain = v.rain * v.temp; t.solid_height = math.floor(math.clamp(v.raw_height, 1.0, 126.0)); t.height = math.floor(math.max(t.solid_height, 64.0)); t.water_depth = (64.0 > t.solid_height) ? math.floor(64.0 - t.solid_height) : 0; t.layer = 0; t.biome_id = (t.water_depth > 0) ? 0 : ((t.solid_height > 100) ? 3 : ((v.temp < 0.25) ? 10 : ((v.temp > 0.75 && v.eff_rain < 0.22) ? 2 : ((v.eff_rain > 0.48) ? 4 : 1)))); return 1;",
+    "x": 0,
+    "y": 0,
+    "z": 0
+  }
+}

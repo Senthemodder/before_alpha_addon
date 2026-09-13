@@ -1,0 +1,13 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "before_alpha:cond_desert_turf_beta"
+    },
+    "places_feature": "before_alpha:beta_sand",
+    "iterations": "t.biome_id == 2 && t.water_depth == 0 && t.layer == 1",
+    "x": 0,
+    "y": 0,
+    "z": 0
+  }
+}

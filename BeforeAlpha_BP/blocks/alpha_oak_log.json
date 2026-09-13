@@ -1,0 +1,38 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "before_alpha:alpha_oak_log",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:display_name": "tile.before_alpha:alpha_oak_log.name",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 10.0
+      },
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "before_alpha_alpha_oak_log_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "before_alpha_alpha_oak_log_top",
+          "render_method": "opaque"
+        },
+        "*": {
+          "texture": "before_alpha_alpha_oak_log_side",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:light_dampening": 15
+    }
+  }
+}

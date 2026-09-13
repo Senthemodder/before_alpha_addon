@@ -1,0 +1,11 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "before_alpha:beta_oak_leaves"
+    },
+    "places_block": "before_alpha:beta_oak_leaves",
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false
+  }
+}

@@ -1,0 +1,43 @@
+pack.name=BEFORE ALPHA [RP]
+pack.description=Authentic nostalgic textures and sound definitions for Before Alpha twin dimensions.
+
+tile.before_alpha:alpha_stone.name=Alpha Stone
+tile.before_alpha:alpha_stone=Alpha Stone
+tile.before_alpha:alpha_grass_block.name=Alpha Grass Block
+tile.before_alpha:alpha_grass_block=Alpha Grass Block
+tile.before_alpha:alpha_dirt.name=Alpha Dirt
+tile.before_alpha:alpha_dirt=Alpha Dirt
+tile.before_alpha:alpha_cobblestone.name=Alpha Cobblestone
+tile.before_alpha:alpha_cobblestone=Alpha Cobblestone
+tile.before_alpha:alpha_gravel.name=Alpha Gravel
+tile.before_alpha:alpha_gravel=Alpha Gravel
+tile.before_alpha:alpha_sand.name=Alpha Sand
+tile.before_alpha:alpha_sand=Alpha Sand
+tile.before_alpha:alpha_bedrock.name=Alpha Bedrock
+tile.before_alpha:alpha_bedrock=Alpha Bedrock
+tile.before_alpha:alpha_oak_log.name=Alpha Oak Log
+tile.before_alpha:alpha_oak_log=Alpha Oak Log
+tile.before_alpha:alpha_oak_leaves.name=Alpha Oak Leaves
+tile.before_alpha:alpha_oak_leaves=Alpha Oak Leaves
+
+tile.before_alpha:beta_stone.name=Beta Stone
+tile.before_alpha:beta_stone=Beta Stone
+tile.before_alpha:beta_grass_block.name=Beta Grass Block
+tile.before_alpha:beta_grass_block=Beta Grass Block
+tile.before_alpha:beta_dirt.name=Beta Dirt
+tile.before_alpha:beta_dirt=Beta Dirt
+tile.before_alpha:beta_cobblestone.name=Beta Cobblestone
+tile.before_alpha:beta_cobblestone=Beta Cobblestone
+tile.before_alpha:beta_gravel.name=Beta Gravel
+tile.before_alpha:beta_gravel=Beta Gravel
+tile.before_alpha:beta_sand.name=Beta Sand
+tile.before_alpha:beta_sand=Beta Sand
+tile.before_alpha:beta_bedrock.name=Beta Bedrock
+tile.before_alpha:beta_bedrock=Beta Bedrock
+tile.before_alpha:beta_oak_log.name=Beta Oak Log
+tile.before_alpha:beta_oak_log=Beta Oak Log
+tile.before_alpha:beta_oak_leaves.name=Beta Oak Leaves
+tile.before_alpha:beta_oak_leaves=Beta Oak Leaves
+
+item.before_alpha:the_glitch.name=THE GLITCH
+item.before_alpha:the_glitch=THE GLITCH

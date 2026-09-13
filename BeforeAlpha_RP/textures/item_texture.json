@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "before_alpha_rp",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "the_glitch": {
+      "textures": "textures/items/the_glitch"
+    }
+  }
+}

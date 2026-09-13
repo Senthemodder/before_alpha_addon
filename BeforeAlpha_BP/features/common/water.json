@@ -1,0 +1,11 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "before_alpha:water"
+    },
+    "places_block": "minecraft:water",
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false
+  }
+}

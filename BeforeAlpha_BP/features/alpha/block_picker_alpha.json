@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "before_alpha:block_picker_alpha"
+    },
+    "early_out": "first_success",
+    "features": [
+      "before_alpha:cond_water_alpha",
+      "before_alpha:cond_gravel_alpha",
+      "before_alpha:cond_sand_beach_alpha",
+      "before_alpha:cond_turf_alpha",
+      "before_alpha:cond_dirt_alpha",
+      "before_alpha:cond_stone_alpha"
+    ]
+  }
+}

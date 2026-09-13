@@ -1,0 +1,57 @@
+{
+  "format_version": [1, 1, 0],
+  "before_alpha:alpha_stone": {
+    "sound": "stone"
+  },
+  "before_alpha:alpha_grass_block": {
+    "sound": "grass"
+  },
+  "before_alpha:alpha_dirt": {
+    "sound": "grass"
+  },
+  "before_alpha:alpha_cobblestone": {
+    "sound": "stone"
+  },
+  "before_alpha:alpha_gravel": {
+    "sound": "gravel"
+  },
+  "before_alpha:alpha_sand": {
+    "sound": "sand"
+  },
+  "before_alpha:alpha_bedrock": {
+    "sound": "stone"
+  },
+  "before_alpha:alpha_oak_log": {
+    "sound": "wood"
+  },
+  "before_alpha:alpha_oak_leaves": {
+    "sound": "grass"
+  },
+  "before_alpha:beta_stone": {
+    "sound": "stone"
+  },
+  "before_alpha:beta_grass_block": {
+    "sound": "grass"
+  },
+  "before_alpha:beta_dirt": {
+    "sound": "grass"
+  },
+  "before_alpha:beta_cobblestone": {
+    "sound": "stone"
+  },
+  "before_alpha:beta_gravel": {
+    "sound": "gravel"
+  },
+  "before_alpha:beta_sand": {
+    "sound": "sand"
+  },
+  "before_alpha:beta_bedrock": {
+    "sound": "stone"
+  },
+  "before_alpha:beta_oak_log": {
+    "sound": "wood"
+  },
+  "before_alpha:beta_oak_leaves": {
+    "sound": "grass"
+  }
+}

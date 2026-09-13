@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "BEFORE ALPHA [RP]",
+    "description": "Authentic nostalgic textures and sound definitions for Before Alpha twin dimensions.",
+    "uuid": "361f3812-dc43-4624-83bf-f9bf5d97cf5a",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 60]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "c9f3a734-9ec5-4a30-88a4-5900d430c0d4",
+      "version": [1, 0, 0]
+    }
+  ]
+}

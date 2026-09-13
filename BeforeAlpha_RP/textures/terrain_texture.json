@@ -1,0 +1,75 @@
+{
+  "resource_pack_name": "Before Alpha RP",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "before_alpha_alpha_stone": {
+      "textures": "textures/blocks/before_alpha/alpha_stone"
+    },
+    "before_alpha_alpha_grass_top": {
+      "textures": "textures/blocks/before_alpha/alpha_grass_top"
+    },
+    "before_alpha_alpha_grass_side": {
+      "textures": "textures/blocks/before_alpha/alpha_grass_side"
+    },
+    "before_alpha_alpha_dirt": {
+      "textures": "textures/blocks/before_alpha/alpha_dirt"
+    },
+    "before_alpha_alpha_cobblestone": {
+      "textures": "textures/blocks/before_alpha/alpha_cobblestone"
+    },
+    "before_alpha_alpha_gravel": {
+      "textures": "textures/blocks/before_alpha/alpha_gravel"
+    },
+    "before_alpha_alpha_sand": {
+      "textures": "textures/blocks/before_alpha/alpha_sand"
+    },
+    "before_alpha_alpha_bedrock": {
+      "textures": "textures/blocks/before_alpha/alpha_bedrock"
+    },
+    "before_alpha_alpha_oak_log_side": {
+      "textures": "textures/blocks/before_alpha/alpha_oak_log_side"
+    },
+    "before_alpha_alpha_oak_log_top": {
+      "textures": "textures/blocks/before_alpha/alpha_oak_log_top"
+    },
+    "before_alpha_alpha_oak_leaves": {
+      "textures": "textures/blocks/before_alpha/alpha_oak_leaves"
+    },
+    "before_alpha_beta_stone": {
+      "textures": "textures/blocks/before_alpha/beta_stone"
+    },
+    "before_alpha_beta_grass_top": {
+      "textures": "textures/blocks/before_alpha/beta_grass_top",
+      "tint_color": "#339933"
+    },
+    "before_alpha_beta_grass_side": {
+      "textures": "textures/blocks/before_alpha/beta_grass_side"
+    },
+    "before_alpha_beta_dirt": {
+      "textures": "textures/blocks/before_alpha/beta_dirt"
+    },
+    "before_alpha_beta_cobblestone": {
+      "textures": "textures/blocks/before_alpha/beta_cobblestone"
+    },
+    "before_alpha_beta_gravel": {
+      "textures": "textures/blocks/before_alpha/beta_gravel"
+    },
+    "before_alpha_beta_sand": {
+      "textures": "textures/blocks/before_alpha/beta_sand"
+    },
+    "before_alpha_beta_bedrock": {
+      "textures": "textures/blocks/before_alpha/beta_bedrock"
+    },
+    "before_alpha_beta_oak_log_side": {
+      "textures": "textures/blocks/before_alpha/beta_oak_log_side"
+    },
+    "before_alpha_beta_oak_log_top": {
+      "textures": "textures/blocks/before_alpha/beta_oak_log_top"
+    },
+    "before_alpha_beta_oak_leaves": {
+      "textures": "textures/blocks/before_alpha/beta_oak_leaves"
+    }
+  }
+}
